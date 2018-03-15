@@ -1,0 +1,27 @@
+{
+  "name": "aem-groovyconsole-cli",
+  "version": "1.0.0",
+  "description": "CLI to work with groovy console (invoke scripts)",
+  "repository": "github:ElmiraZhernova/aem-groovyconsole-cli",
+  "bin": {
+    "groovyconsole": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.0",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "ensure": {
+    "deps": {
+      "checkDirs": [
+        "lib/*",
+        "*.js"
+      ]
+    }
+  },
+  "license": "ISC"
+}
