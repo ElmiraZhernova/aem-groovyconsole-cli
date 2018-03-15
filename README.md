@@ -14,7 +14,7 @@ Runs single groovy script (if file name --file is specified in [options] ) or al
 Options:
 
 <pre><code>
--h, --hostname  <hostname>     Hostname of AEM instance (default: http://localhost:4502)
+-h, --hostname  <hostname>       Hostname of AEM instance (default: http://localhost:4502)
 -l, --login  <login>          AEM user login (default: admin)
 -p, --password  <password>       AEM user password (default: admin)
 -f, --file  <file>           Groovy file to invoke script
