@@ -6,6 +6,7 @@ AEM Groovy Console CLI gives you an ability to work with groovy console (run scr
 <pre><code>groovyconsole run -h http://localhost:4502 -l admin -p admin -f some-script.groovy</code></pre>
 
 ###groovyconsole run
+
 Usage: <pre><code>groovyconsole run [options]</code></pre>
 
 Runs single groovy script (if file name --file is specified in [options] ) or all groovy scripts in current directory(if option <mode> is set to 'all' and --file is not specified)
