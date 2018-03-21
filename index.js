@@ -13,6 +13,8 @@ program
     .option('-p, --password  <password>', 'AEM user password', 'admin')
     .option('-f, --file  <file>', 'Groovy file to invoke')
     .option('-m, --mode  <mode>', 'Use  all to run all groovy scripts in current directory')
+    .option('-r, --result  <result>', 'Condition of showing the script result. Set \'true\' to see result')
+    .option('-t, --time  <time>', 'Condition of showing the script running time. Set \'true\' to see time')
     .action(function(options) {
         new GroovyConsoleApplication().invokeGroovyScript(options);
     })

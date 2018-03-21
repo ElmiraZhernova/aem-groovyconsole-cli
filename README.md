@@ -19,5 +19,7 @@ Options:
 -p, --password  <password>       AEM user password (default: admin)
 -f, --file  <file>           Groovy file to invoke script
 -m, --mode  <mode>           Use  'all' to run all groovy scripts in current directory
+-r, --result  <result>         Condition of showing the script result. Set 'true' to see result
+-t, --time  <time>           Condition of showing the script running time. Set 'true' to see time
 </code></pre>
 
