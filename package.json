@@ -1,10 +1,10 @@
 {
   "name": "aem-groovyconsole-cli",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "CLI to work with groovy console (invoke scripts)",
   "repository": "github:ElmiraZhernova/aem-groovyconsole-cli",
   "bin": {
-    "groovyconsole": "./index.js"
+    "gconsole": "./index.js"
   },
   "dependencies": {
     "chalk": "^2.3.2",
